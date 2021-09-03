@@ -3,7 +3,7 @@ const initialize = require('../index.js')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  // switch case
+  return `![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)]`;
 }
 
 // TODO: Create a function that returns the license link
@@ -22,6 +22,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(response) {
 
   return `# ${response.title}
+  ${renderLicenseBadge(response.license)}
   ## Description
   ${response.description}
   ## Installation
@@ -29,8 +30,7 @@ function generateMarkdown(response) {
   ## Usage
   ${response.usage}
   ## Credits
-  ${response.github}
-  ${response.email}
+  ${response.github} \n ${response.email}
   ## License
   The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
   ---
