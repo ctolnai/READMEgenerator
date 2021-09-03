@@ -27,11 +27,6 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Enter contribution guidelines:',
-        name: 'contribution',
-    },
-    {
-        type: 'input',
         message: 'Enter test instructions:',
         name: 'test',
     },

@@ -3,7 +3,7 @@ const initialize = require('../index.js')
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return `![License: ${license}](https://img.shields.io/badge/License-${license}-yellow.svg)`;
+  return `![License: ${license}](https://img.shields.io/badge/License-${license}-blueviolet.svg)`;
 }
 
 // TODO: Create a function that returns the license link
@@ -29,10 +29,10 @@ function generateMarkdown(response) {
   ${response.installation}
   ## Usage
   ${response.usage}
-  ## Credits
-  ${response.gitHub}
+  ## Questions
+  https://github.com/${response.gitHub}
 
-  ${response.email}
+  Please email me at ${response.email} for any questions.
   ## License
   ${renderLicenseSection(response.license)}
   ## How to Contribute
