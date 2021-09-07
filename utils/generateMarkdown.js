@@ -42,7 +42,7 @@ function generateMarkdown(response) {
   Please email me at ${response.email} for any questions.
   ## License
   ${renderLicenseSection(response.license)}
-  ## How to Contribute
+  ## Contribution
   ${response.contribution}
   ## Tests
   ${response.test}`; 

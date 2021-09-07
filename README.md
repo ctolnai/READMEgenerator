@@ -1,7 +1,7 @@
 # README
   ![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)
   ## Description
-  This application uses Javascript, NPM, and Inquirier to automate the process of creating a README file for applications. 
+  This application uses Javascript, NPM, and Inquirer to automate the process of creating a README file for applications. 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -14,6 +14,8 @@
   ## Usage
   See the screenshot below for a example of the application prompts.
     ![screenshot](assets/images/screenshot.png)
+  See the walkthrough video for an actual step by step of the application.
+  
   ## Questions
   https://github.com/ctolnai
 
