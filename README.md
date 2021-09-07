@@ -13,8 +13,12 @@
   In order to install this application you must clone the repository then install NPM and Inquirer.  In order to create the README, navigate into the cloned repository using your terminal, then type "node index.js" to start the application.  Then follow the prompts to create your README.
   ## Usage
   See the screenshot below for a example of the application prompts.
-    ![screenshot](assets/images/screenshot.png)
+
+  <img src="assets/images/screenshot.png"/>
+  
   See the walkthrough video for an actual step by step of the application.
+
+  https://drive.google.com/file/d/16LPQYCYHIta-DGUYDbcgtiRilK4NjGHC/view
   
   ## Questions
   https://github.com/ctolnai
