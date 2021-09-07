@@ -19,6 +19,9 @@
   See the walkthrough video for an actual step by step of the application.
 
   https://drive.google.com/file/d/16LPQYCYHIta-DGUYDbcgtiRilK4NjGHC/view
+
+  ### Github repository:
+  https://github.com/ctolnai/READMEgenerator
   
   ## Questions
   https://github.com/ctolnai
