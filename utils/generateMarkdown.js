@@ -25,6 +25,13 @@ function generateMarkdown(response) {
   ${renderLicenseBadge(response.license)}
   ## Description
   ${response.description}
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Questions](#questions)
+  - [License](#license)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
   ## Installation
   ${response.installation}
   ## Usage
