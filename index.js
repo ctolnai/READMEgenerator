@@ -1,9 +1,7 @@
-// TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -54,19 +52,12 @@ const questions = [
 
 function initialize () {inquirer
     .prompt(questions)
-    .then((response) => {let log = `${response.title.toLowerCase().split(' ').join('')}.md`;
-        
-         fs.writeFile(log, generateMarkdown(response), (err) =>
+    .then((response) => 
+         fs.writeFile('./dist/README.MD', generateMarkdown(response), (err) =>
          err ? console.log(err) : console.log('success')
-         );
-        
-});
-}
+         ) 
+)};
 
 initialize()
 
 module.exports = initialize;
-
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
